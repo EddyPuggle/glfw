@@ -1,5 +1,4 @@
-﻿  contect.c
-c1 : fatal  error C1083: Datei (Quelle) kann nicht geöffnet werden: "src\contect.c": No such file or directory
+﻿  context.c
   egl_context.c
   init.c
   input.c
@@ -14,3 +13,4 @@ c1 : fatal  error C1083: Datei (Quelle) kann nicht geöffnet werden: "src\contec
   win32_window.c
   window.c
   Code wird generiert...
+  glfw.vcxproj -> B:\Entwicklung\Projekte\vscode\Gibbon\Gibbon\vendor\glfw\bin\Debug-windows-x86_64\glfw\glfw.lib
