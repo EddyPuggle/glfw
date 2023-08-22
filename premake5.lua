@@ -2,7 +2,7 @@ project "glfw"
     kind "staticLib"
     language "C"
 
-    targetdir ("bin/" .. outputdir .. "/%(prj.name)")
+    targetdir ("bin/" .. outputdir .. "/%{prj.name}")
     objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
 -- Multiplatform files
