@@ -32,7 +32,7 @@ project "GLFW"
 
     filter "system:windows"
         systemversion "latest"
-        staticruntime "On"
+        staticruntime "on"
     -- Windows OS specific files
         files {
             "src/win32_joystick.h",
@@ -57,7 +57,7 @@ project "GLFW"
         }
     
     filter "system:linux"
-        pic "On"
+        pic "on"
 
         systemversion "latest"
     
@@ -79,7 +79,7 @@ project "GLFW"
         }
 
     filter "system:macosx"
-        pic "On"
+        pic "on"
 
         files {
             "src/cocoa_init.m",
@@ -99,14 +99,9 @@ project "GLFW"
         }
 
     filter "configurations:Debug"
-		runtime "Debug"
-		symbols "on"
+        runtime "Debug"
+        symbols "on"
 
 	filter "configurations:Release"
 		runtime "Release"
-		optimize "speed"
-
-    filter "configurations:Dist"
-		runtime "Release"
-		optimize "speed"
-        symbols "off"
+		optimize "on"
