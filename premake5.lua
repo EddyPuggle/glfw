@@ -1,4 +1,4 @@
-project "GLFW"
+project "glfw"
     kind "staticLib"
     language "C"
 
